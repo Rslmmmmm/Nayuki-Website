@@ -1,0 +1,154 @@
+
+body{
+    font-family:"Microsoft YaHei";    font-size:20px;    font-style:normal;	padding:0px; margin:0px; color:#333333
+}
+img{ max-width:100%}
+.row{ margin:0px; padding:0px;}
+img{border:none;}
+ul{ margin:0px; padding:0px; list-style:none}
+li{ }
+a{ color:#333333; text-decoration:none}
+a:hover{ color:#e00011}
+
+
+.header{ margin:0px; padding:10px 0; height:80px; background-color:#9fc924}
+.logo{ display:100px; float:left; margin-left:20px; height:40px;}
+.navbars{ float:right; margin-right:20px; display:none}
+.nav{ margin-right:60px; font-size:20px;}
+.nav ul { text-align:right;  width:100%; margin-top:10px;}
+.nav ul li{ display:inline-block; margin-left:30px;}
+.nav ul li a{ color:#FFFFFF}
+.banner img{ width:100%}
+h1{ font-family: "Playfair Display", serif; margin:20px auto}
+
+.box_width{ width:1200px; margin:20px auto}
+.brand{ display:flex; margin-bottom:60px;}
+.brand li{ width:25%; text-align:center}
+
+.banner_about{ background:url(../images/aboutbg.jpg); background-size:100%; height:500px; color:#FFFFFF}
+.banner_about .txt{ width:65%;float:right; max-width:950px; margin-right:40px; margin-top:130px;}
+.more{ display:inline-block; background-color:#FFFFFF; line-height:40px;border-radius:20px; font-size:26px; padding-left:30px; padding-right:30px; color:#000; border:1px #9fc924 solid; margin:20px auto;}
+
+
+
+
+
+.homelist li { display:flex;align-items:center; justify-content:center; margin-bottom:15px; }
+.homelist p{ white-space:pre; margin-left:20px; font-size:20px;}
+
+
+.aboutlist li{ display: flex; align-items:center; margin-bottom:20px;}
+.aboutlist li a{ width:60%}
+.aboutlist li p{ width:40%; margin:0px; padding:0px; padding-right:26px;}
+.aboutlist li p strong{ display:block; color:#9fc924}
+.aboutlist li:nth-child(even){ flex-direction:row-reverse;}
+
+
+.proclass{ padding: 0; background-color:#c4c4c4; overflow:hidden}
+.proclass a{ float:left; width:33.3333%; line-height:60px; text-align:center}
+.proclass a.on{ background-color:#9fc924}
+
+.proitem{ margin:20px auto; display:none}
+.proitem .protxt{ margin:0px; margin-bottom:10px;}
+.proitem .protxt strong{ display:block; font-weight:normal; text-align:center; margin-top:20px;}
+.show{ display:flex}
+
+
+.form{ display:block; width:700px;  margin:30px auto; overflow:hidden; background-color:#9fc924;border-radius:25px; height:50px; padding-left:20px; padding-right:30px; }
+.form input{ float:left; margin-top:10px; background:none; border:none}
+
+.map{ display:flex; align-items:center; background-color:#9fc924}
+.map img{ width:70%}
+.map>div{ padding:10px;}
+
+.footerStore{ width:80%; margin:20px auto}
+.footer{ background-color:#9fc924; padding:10px; clear:both; margin-top:50px;}
+.footer>div{ width:1100px; margin:20px auto}
+.footer .footercontact li{ display:flex;align-items:center;  position:relative; font-size:16px; margin-bottom:25px;}
+.footer .footercontact li p{ padding:0px; margin:0; margin-left:10px;}
+.footer .code a{ float:left; font-size:14px; text-align:center; margin-right:10px; width:30%}
+.footer .code a img{ margin-bottom:10px}
+
+.contactbox{ display:flex;align-items:center;}
+.contactbox img{ width:400px; margin-right:30px;  }
+.contactbox>div{ margin-right:50px;}
+.book input{ width:100%; margin-bottom:10px;}
+.book textarea{ width:100%; height:100px;}
+.book button{ width:95%; margin:0px auto; background-color:#9fc924; color:#FFFFFF; border:none; height:40px}
+
+
+.recruitm{ display:flex;align-items:center;justify-content:space-between;background-color:#9fc924; color:#FFFFFF; padding:10px;  margin:0px auto}
+
+
+
+.ol{ margin:0px; padding:0px;counter-reset: list-counter; column-count:2; max-width:900px; margin:0px auto}
+.ol li{ position:relative; padding-left:70px; margin-bottom:30px; list-style:none}
+.ol li:before {
+background: #55a05e;
+color: white;
+content: counter(list-counter);
+counter-increment: list-counter;
+display: block;
+height:30px;
+width:30px;
+left: 0;
+line-height:30px;
+font-size:16px;
+position: absolute;
+text-align: center;
+margin-top:.15rem;; margin-left:20px;;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 668px) {
+.nav{ display:none; position:relative; padding:10px 0 10px 0; background-color:#8cb512; width:100%; clear:both; margin-right:0; margin-top:70px}
+.nav ul li{ width:100%; display:block;  margin-left:0; text-align:center; font-size:18px; line-height:30px; margin:0px; margin-bottom:10px }
+.nav ul li a{ color:#FFFFFF}
+.txt_warning{ width:90%;}
+.footer>div{ margin:20px}
+#context{ text-align:center}
+.nowap{ display:none}
+.navbars{ display:block; margin-top:10px;}
+
+.box_width{ width:auto; margin:30px 20px;}
+
+
+.banner_about{  background-size:auto 100%; height:auto; overflow:hidden;color:#FFFFFF}
+.banner_about .txt{ width: auto;float: none; margin:20px;}
+
+.homelist p{ font-size:18px}
+
+
+.aboutlist li{ flex-wrap:wrap;}
+.aboutlist li a{ width:100%}
+.aboutlist li p{ width:100%; margin:0px; padding:0px; padding-right:0px;}
+
+.proitem .protxt p{ heigh1t:50px; font-size:12px; overflow:hidden}
+.proitem .protxt p strong{ font-weight:bold}
+.proclass a{ width:100%}
+
+.form{ width:90%; font-size:14px; }
+.map{flex-wrap:wrap;}
+.map img{ width:100%}
+
+.contactbox img{ display:none}
+.contactbox>div{ margin:10px; padding-top:20px;}
+
+.ol{column-count:1;}
+
+
+
+.footer>div{ width:100%; margin:20px auto}
+
+
+
+}
